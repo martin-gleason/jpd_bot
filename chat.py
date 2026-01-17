@@ -8,15 +8,16 @@ client = Anthropic(
     api_key = os.getenv("ANTHROPIC_API_KEY")
 )
 
-message = client.messages.create(
+cli_input = input("|> ")
+
+stream = client.messages.create(
     max_tokens = 1024,
     messages = [
         {
             "role": "user",
-            "content": "Hello Claude",
+            "content": cli_input,
         }
     ],
-    model="claude-sonnet-4-5-20250929"
+    model="claude-sonnet-4-5-20250929",
+    stream = True
 )
-
-print(message.content)
