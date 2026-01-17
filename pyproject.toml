@@ -1,7 +1,7 @@
 [project]
 name = "jpd-bot"
 version = "0.1.0"
-description = "Could not parse version constraint: flask"
+description = "Claude powered, RAG enhanced, policy review bot"
 authors = [
     {name = "Martin Gleason",email = "marty.data.scientist@icloud.com"}
 ]
