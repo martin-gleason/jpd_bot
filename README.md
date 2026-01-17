@@ -1,7 +1,7 @@
-# jpd_bot
+# JPD Bot
 ## Claude powered, RAG enhanced, policy review bot
 
-#Purpose:
+# Purpose:
 This bot will use the policies of the Cook County Juvenile Probation Department to support the operations of the department in answering policy questions and enhancing policies.
 
 # Project Documentation
